@@ -15,7 +15,7 @@ public class TestTakeOut {
 		System.out.println("CHOSE TYPE OF MEAL");
 		int choice=input.nextInt();
 		int feeds,trays;
-		double price, subtotal,tax,tips,total,perperson;
+		double price, subtotal,tax,tips,total,perperson,leftover;
 		double taxrate=0.07;
 		double tiprate=0.15;
 		
@@ -35,7 +35,7 @@ public class TestTakeOut {
 				tips=obj.getTips(subtotal, tiprate);
 				total=obj.getGrandTotal(subtotal, taxrate, tips);
 				perperson=obj.pricePerPerson(total, people);
-				
+				leftover=obj.determineLeftOvers(feeds, trays, people);
 				
 				System.out.println("You need "+trays+" trays");
 				System.out.println("Feeds: "+feeds);
@@ -44,6 +44,7 @@ public class TestTakeOut {
 				System.out.println("Tip : $"+tips);
 				System.out.println("Total (food, tax,tip): $"+total);
 				System.out.println("Price per person: $"+perperson);
+				System.out.println("Leftover servings for the delivery person"+leftover);
 				
 			}
 			if(choice==2) {
