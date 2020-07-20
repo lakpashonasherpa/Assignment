@@ -24,8 +24,9 @@ public class Number15 {
         	System.out.println("The character for the given input is: "+c);
                  }
                 }
-        
+        input.close();
            }
+	
 
       }
 

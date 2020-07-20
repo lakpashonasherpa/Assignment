@@ -1,4 +1,4 @@
-package Assignment8;
+package assignment8;
 
 public class Number37 {
 	final static int ROW = 3;

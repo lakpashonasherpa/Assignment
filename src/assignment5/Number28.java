@@ -30,9 +30,10 @@ public static void main(String[] args) {
 		}
 		if(num==i) {
 			System.out.println(num+" is prime");
+			
 		}
 		
-		
+		input.close();
 	}
 
 

@@ -56,6 +56,8 @@ public class TestTakeOut {
 				tips=obj.getTips(subtotal, tiprate);
 				total=obj.getGrandTotal(subtotal, taxrate, tips);
 				perperson=obj.pricePerPerson(total, people);
+				leftover=obj.determineLeftOvers(feeds, trays, people);
+
 				
 				
 				System.out.println("You need "+trays+" trays");
@@ -65,6 +67,7 @@ public class TestTakeOut {
 				System.out.println("Tip : $"+tips);
 				System.out.println("Total (food, tax,tip): $"+total);
 				System.out.println("Price per person: $"+perperson);
+				System.out.println("Leftover servings for the delivery person"+leftover);
 			}
 			if(choice==3) {
 				feeds=4;
@@ -75,6 +78,8 @@ public class TestTakeOut {
 				tips=obj.getTips(subtotal, tiprate);
 				total=obj.getGrandTotal(subtotal, taxrate, tips);
 				perperson=obj.pricePerPerson(total, people);
+				leftover=obj.determineLeftOvers(feeds, trays, people);
+
 				
 				
 				System.out.println("You need "+trays+" trays");
@@ -84,6 +89,7 @@ public class TestTakeOut {
 				System.out.println("Tip : $"+tips);
 				System.out.println("Total (food, tax,tip): $"+total);
 				System.out.println("Price per person: $"+perperson);
+				System.out.println("Leftover servings for the delivery person"+leftover);
 				
 			}
 			
@@ -102,6 +108,8 @@ public class TestTakeOut {
 				tips=obj.getTips(subtotal, tiprate);
 				total=obj.getGrandTotal(subtotal, taxrate, tips);
 				perperson=obj.pricePerPerson(total, people);
+				leftover=obj.determineLeftOvers(feeds, trays, people);
+
 				
 				
 				System.out.println("You need "+trays+" trays");
@@ -111,6 +119,7 @@ public class TestTakeOut {
 				System.out.println("Tip : $"+tips);
 				System.out.println("Total (food, tax,tip): $"+total);
 				System.out.println("Price per person: $"+perperson);
+				System.out.println("Leftover servings for the delivery person"+leftover);
 				
 			}
 			if(choice==2) {
@@ -122,6 +131,8 @@ public class TestTakeOut {
 				tips=obj.getTips(subtotal, tiprate);
 				total=obj.getGrandTotal(subtotal, taxrate, tips);
 				perperson=obj.pricePerPerson(total, people);
+				leftover=obj.determineLeftOvers(feeds, trays, people);
+
 				
 				
 				System.out.println("You need "+trays+" trays");
@@ -131,6 +142,7 @@ public class TestTakeOut {
 				System.out.println("Tip : $"+tips);
 				System.out.println("Total (food, tax,tip): $"+total);
 				System.out.println("Price per person: $"+perperson);
+				System.out.println("Leftover servings for the delivery person"+leftover);
 			}
 			if(choice==3) {
 				feeds=10;
@@ -141,6 +153,8 @@ public class TestTakeOut {
 				tips=obj.getTips(subtotal, tiprate);
 				total=obj.getGrandTotal(subtotal, taxrate, tips);
 				perperson=obj.pricePerPerson(total, people);
+				leftover=obj.determineLeftOvers(feeds, trays, people);
+
 				
 				
 				System.out.println("You need "+trays+" trays");
@@ -150,6 +164,7 @@ public class TestTakeOut {
 				System.out.println("Tip : $"+tips);
 				System.out.println("Total (food, tax,tip): $"+total);
 				System.out.println("Price per person: $"+perperson);
+				System.out.println("Leftover servings for the delivery person"+leftover);
 				
 			}
 
@@ -169,6 +184,8 @@ public class TestTakeOut {
 				tips=obj.getTips(subtotal, tiprate);
 				total=obj.getGrandTotal(subtotal, taxrate, tips);
 				perperson=obj.pricePerPerson(total, people);
+				leftover=obj.determineLeftOvers(feeds, trays, people);
+
 				
 				
 				System.out.println("You need "+trays+" trays");
@@ -178,6 +195,7 @@ public class TestTakeOut {
 				System.out.println("Tip : $"+tips);
 				System.out.println("Total (food, tax,tip): $"+total);
 				System.out.println("Price per person: $"+perperson);
+				System.out.println("Leftover servings for the delivery person"+leftover);
 				
 			}
 			else if(choice==2) {
@@ -189,6 +207,8 @@ public class TestTakeOut {
 				tips=obj.getTips(subtotal, tiprate);
 				total=obj.getGrandTotal(subtotal, taxrate, tips);
 				perperson=obj.pricePerPerson(total, people);
+				leftover=obj.determineLeftOvers(feeds, trays, people);
+
 				
 				
 				System.out.println("You need "+trays+" trays");
@@ -198,6 +218,7 @@ public class TestTakeOut {
 				System.out.println("Tip : $"+tips);
 				System.out.println("Total (food, tax,tip): $"+total);
 				System.out.println("Price per person: $"+perperson);
+				System.out.println("Leftover servings for the delivery person"+leftover);
 			}
 			else if(choice==3) {
 				feeds=5;
@@ -208,6 +229,8 @@ public class TestTakeOut {
 				tips=obj.getTips(subtotal, tiprate);
 				total=obj.getGrandTotal(subtotal, taxrate, tips);
 				perperson=obj.pricePerPerson(total, people);
+				leftover=obj.determineLeftOvers(feeds, trays, people);
+
 				
 				
 				System.out.println("You need "+trays+" trays");

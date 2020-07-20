@@ -62,8 +62,8 @@ public  double pricePerPerson(double grandTotal, int people) {
 	return pricePerson;
 }
 public  int determineLeftOvers(int feeds, int trays, int people) {
-	
-	return 0;
+	int leftover=feeds*trays-people;
+	return leftover;
 }
 
 }
